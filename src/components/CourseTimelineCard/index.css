@@ -1,0 +1,39 @@
+.cr-div1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.cr-div2 {
+  display: flex;
+  align-items: center;
+}
+.cr-h {
+  color: #1e293b;
+  font-family: roboto;
+}
+.cr-t-p {
+  color: #1e293b;
+  font-weight: 700;
+  font-family: roboto;
+}
+.cr-ul {
+  padding: 0px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cr-li {
+  list-style-type: none;
+  background-color: rgb(223, 234, 248);
+  padding: 4px;
+  font-family: roboto;
+  font-size: 10px;
+  font-weight: 600;
+  margin: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .cr-div1 {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,14 @@
+.pr-img {
+  width: 100%;
+}
+.anc {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: roboto;
+  font-weight: 500;
+  color: #0967d2;
+}
+.desc-p {
+  font-family: roboto;
+  font-size: 12px;
+}
